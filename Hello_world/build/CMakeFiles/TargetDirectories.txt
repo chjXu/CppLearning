@@ -1,0 +1,3 @@
+/home/xuchengjun/Desktop/C++/Hello_world/build/CMakeFiles/edit_cache.dir
+/home/xuchengjun/Desktop/C++/Hello_world/build/CMakeFiles/rebuild_cache.dir
+/home/xuchengjun/Desktop/C++/Hello_world/build/CMakeFiles/helloworld.dir
