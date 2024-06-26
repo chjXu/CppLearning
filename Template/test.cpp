@@ -31,10 +31,17 @@ int main()
     std::cout << p35.x() << " " << p35.y() << " " << p35.z() << std::endl;
     std::cout << p35.isZero() << std::endl;
 
-    // line
+    // line  2D
     Line2f l(p23, p22);
     std::cout << l.sp().x() << " " << l.sp().y() << std::endl;
     std::cout << l.ep().x() << " " << l.ep().y() << std::endl;
     std::cout << l.vd().x() << " " << l.vd().y() << std::endl;
+    
+    // line 3D
+    Line3f l3(p34, p35);
+    std::cout << l3.sp().x() << " " << l3.sp().y() << " " << l3.sp().z() << std::endl;
+    std::cout << l3.ep().x() << " " << l3.ep().y() << " " << l3.ep().z() << std::endl;
+    std::cout << l3.vd().x() << " " << l3.vd().y() << " " << l3.vd().z() << std::endl;
+    
     return 0;
 }
